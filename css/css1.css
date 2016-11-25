@@ -103,16 +103,25 @@ p{
 .haut{
 	text-align: right;
 }	
+<<<<<<< HEAD
 .livrables{
 	list-style-type: none;
 	color: #FFFFFF;
 	font-family: italic;
+=======
+section #livrables{
+	text-decoration:none;
+	list-style-type: none;
+	color: #FFFFFF;
+	font-family: cursive;
+>>>>>>> origin/master
 	font-size: 23px;
 	background-color: #000000;
 	border-radius: 3px;
 	padding: 2px;
 	margin-left: 30px;
 	margin-right: 3px;
+<<<<<<< HEAD
 	margin-bottom: 20px;
 	display: inline-block;
 }
@@ -128,4 +137,7 @@ nav a {
 	padding: 4px;
 	margin-left: 30px;
 	margin-right: 3px;
+=======
+	
+>>>>>>> origin/master
 }
