@@ -1,0 +1,104 @@
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    color:#C85B54;
+    font-family: cursive;
+    font-size: 55px;
+    font-weight: 70px;
+    font-style: italic;
+    padding: 10px 0px;
+    text-shadow: 5px 5px 2px black;
+	padding-right: 15px;
+}
+ul{   
+    margin: -20px;
+}
+li{
+	display: inline-block;
+    border-radius: 5px;		
+}
+article{
+    font-family: monospace;
+    color: #BBBBF9;
+    padding: 90px 150px;
+    font-size: 20px;
+	font-weight: 600;
+}
+body{
+	background-image: url(../images/fondecran.jpg);
+	background-attachment: fixed;
+	background-position: top;
+}
+
+a{
+	text-decoration:none;
+	list-style-type: none;
+	color:  rgb(187, 187, 249);
+	font-family: cursive;
+	font-size: 23px;
+	background-color: #8D4F52;
+	border-radius: 5px;
+	padding: 2px;
+	margin-left: 30px;
+	margin-right: 3px;
+}
+div{
+	padding: 0px 30px;
+    margin: 0px 50px;
+}
+footer{
+	text-align: center;
+	color: #E6E6E6;
+
+}
+form{
+	color: #BBBBF9;
+	text-align: center;
+}
+h2{
+	color: #C85B54;
+	text-align: center;
+	font-size: 35px;
+}
+footer p{
+	color: #E6E6E6;
+}	
+nav{  
+    padding: 0px 0px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+ul div {
+	margin: 15px;
+	margin-left: 130px;
+}
+ul span{
+	text-decoration:none;
+	list-style-type: none;
+	color: #8D4F52;
+	font-family: cursive;
+	font-size: 23px;
+	background-color: #BBBBF9;
+	border-radius: 5px;
+	padding: 2px;
+	text-align: center;
+}
+p{
+	color: #BBBBF9;
+}
+
+#HautDePage{
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	width: 10px;
+	height: 15px;
+}
+.haut{
+	text-align: right;
+}	

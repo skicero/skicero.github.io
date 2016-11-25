@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author"="Romain PENET"/>
+		<meta name="keywords" content="Projet tuteuré, 1ère année, dut informatique, informatique, HTML, CSS"/>
+		<meta name="description" content="Ce site est un site dedié à mon projet tuteuré de 2016 concernant une application"/>
+		<link rel="stylesheet" href="css/css1.css"/>
+		<title>Projet tuteuré Groupe19 </title>
+		<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+	</head>
+	<body>
+		<header>
+			<h1><strong> Projet tuteuré Groupe 19 Année 2016/2017 </strong></h1>			
+			<nav>
+				<a id="accueil" href="index.html">Accueil</a>
+				<a id="livrables" href="livrables.html">Livrables du projet tuteuré</a>
+				<a id="avisimpressions" href="avis.html">Avis, Impressions</a>
+				<a id="contacts" href="contact.html">Contacts</a>
+			</nav>
+		</header>
+		<article>
+			<h2><strong>Votre avis compte pour nous !</strong></h2>
+			<p>N'hésitez pas à laisser votre avis sur ce site. Il me sera utile pour l'améliorer !</p>
+			<p>Quelques questions sur vous :</p>
+		 </article>
+		<fieldset class="contact">
+				<div id="avis">
+					<form method="post" action="mailto:roro.p@free.fr" enctype="text/plain">
+					<p>Nom :</p><input class="form" type="text" name="name" placeholder="Nom" maxlength="20" required="" >
+					<p>Prénom :</p><input class="form" type="text" name="prenom" placeholder="Prénom" maxlength="20" required="">
+					<p>Âge :</p><input class="form" type="number" name="age" placeholder="Âge" size="2" min="14" max="80">
+					<p>Numéro de téléphone (facultatif)</p><input class="form" type="tel" name="tel" placeholder="Numéro de téléphone" maxlength="10" pattern="0[0-9]{9}">
+					<p>Adresse mail (facultatif):</p><input class="form" type="email" name="mail" placeholder="Adresse mail">
+                 
+					<p>Que pensez-vous de ce site web ? </p>
+					<input type="radio" name="global" value="Très bon" required=""><label class="inline">Très bon</label><br>
+					<input type="radio" name="global" value="Bon" required=""><label class="inline">Bon</label><br>
+					<input type="radio" name="global" value="Moyen" required=""><label class="inline">Moyen</label><br>
+					<input type="radio" name="global" value="Pas bon" required=""><label class="inline">Pas bon</label><br>
+					<br>
+					<p>Que pensez-vous de l'habillage du site web ?  :</p>
+					<input type="radio" name="color" value="Bon" required=""><label class="inline">Bonne</label><br>
+					<input type="radio" name="color" value="Moyen" required=""><label class="inline">Moyenne</label><br>
+					<input type="radio" name="color" value="Passable" required=""><label class="inline">Passable</label><br>
+					<br>
+					<p>Que pensez-vous du contenu ?  :</p>
+					<input type="radio" name="content" value="Très bien" required=""><label class="inline">Très bien</label><br>
+					<input type="radio" name="content" value="Bien" required=""><label class="inline">Bien</label><br>
+					<input type="radio" name="content" value="Moyen" required=""><label class="inline">Moyen</label><br>
+					<input type="radio" name="content" value="Pas terrible" required=""><label class="inline">Pas terrible</label><br>
+					<br>
+					<p>Quelque chose à rajouter ? N'hésitez pas !</p>
+					<textarea class="form" name="comment" rows="5" cols="30" placeholder="Un petit commentaire..." maxlength="500" required=""></textarea><br>
+					<br>
+					<p> <form action="MailTo:rpenet91@gmail.com" method="post" enctype="text/plain"><input type="submit" class="button" value="Envoyer"></p>
+                    <p><input type="reset" class="button" value="Remise à zéro"></p>
+					</form>
+				</div>
+          </fieldset>
+		  <footer>
+			<p id="réservé">Romain PENET © 2016-2017 <span id="rights">Tous droits réservé.</span></p>
+			<p class="haut"> <a id="HautDePage"href="#top"> <img src="images/fleche.png"> </a> </p>
+		  </footer>
+      </body>
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</html>
