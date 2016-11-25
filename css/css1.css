@@ -34,7 +34,7 @@ body{
 	background-position: top;
 }
 
-a{
+nav a, .lienspe a{
 	text-decoration:none;
 	list-style-type: none;
 	color:  rgb(187, 187, 249);
